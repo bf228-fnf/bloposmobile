@@ -1,0 +1,52 @@
+* {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FDEB6B;
+    background-size: 100%;
+    margin: 0px;
+}
+
+#browser {
+}
+
+#site {
+    margin: 5px;
+}
+
+.rightbut {
+    color: black;
+    background-color: #FDEB6B;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.rightbut:hover {
+    background-color: #FDF4B0;
+}
+
+.leftbut {
+    color: black;
+    background-color: #FDEB6B;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.leftbut:hover {
+    background-color: #FDF4B0;
+}
+
+#site input {
+    width: 83%;
+    height: 26px;
+    color: black;
+    background-color: #DDCC5F;
+    border: none;
+    border-radius: 16px;
+    padding-left: 8px;
+}

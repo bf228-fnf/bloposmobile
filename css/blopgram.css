@@ -39,3 +39,9 @@ body {
     margin-left: 12px;
     margin-top: 6px;
 }
+
+#nam {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}

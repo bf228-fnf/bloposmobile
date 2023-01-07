@@ -10,14 +10,12 @@ body {
     margin: 0px;
 }
 
-#browser {
-}
-
 #site {
+    display: flex;
     margin: 5px;
 }
 
-.rightbut {
+.but {
     color: black;
     background-color: #FDEB6B;
     border: none;
@@ -25,11 +23,12 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
-.rightbut:hover {
+.but:hover {
     background-color: #FDF4B0;
 }
 
-.leftbut {
+.but1 {
+    margin-left: 12px;
     color: black;
     background-color: #FDEB6B;
     border: none;
@@ -37,12 +36,16 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
-.leftbut:hover {
+.but1:hover {
     background-color: #FDF4B0;
+}
+
+.material-symbols-outlined {
+    color: black;
 }
 
 #site input {
-    width: 80%;
+    width: 100%;
     height: 26px;
     color: black;
     background-color: #DDCC5F;

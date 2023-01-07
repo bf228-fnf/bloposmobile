@@ -34,3 +34,18 @@ p {
     margin: 24px;
     text-shadow: 1px 1px 4px black;
 }
+
+#punkt {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+#block {
+    margin: 8px;
+}
+
+#them {
+    border: none;
+    background-color: #FDEB6B;
+}
